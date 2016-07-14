@@ -1,10 +1,10 @@
-Name:			vo-amrwbenc
-Version:		0.1.3
-Release:		1%{?dist}
-Summary:		VisualOn AMR-WB encoder library
-Group:			System Environment/Libraries
-License:		ASL 2.0
-URL:			http://opencore-amr.sourceforge.net/
+Name:		vo-amrwbenc
+Version:	0.1.3
+Release:	2%{?dist}
+Summary:	VisualOn AMR-WB encoder library
+Group:		System Environment/Libraries
+License:	ASL 2.0
+URL:		http://opencore-amr.sourceforge.net/
 Source:		https://sourceforge.net/projects/opencore-amr/files/vo-amrwbenc/%{name}-%{version}.tar.gz
 
 %description
@@ -48,6 +48,9 @@ rm $RPM_BUILD_ROOT%{_libdir}/libvo-amrwbenc.la
 %{_libdir}/pkgconfig/vo-amrwbenc.pc
 
 %changelog
+
+* Fri Jul 08 2016 David Vásquez <davidjeremias82 AT gmail DOT com> - 0.1.3-2
+- Massive rebuild
 
 * Mon Feb 22 2016 David Vásquez <davidjeremias82 AT gmail DOT com> 0.1.3-1
 - Updated to 0.1.3
